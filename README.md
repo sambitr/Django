@@ -36,3 +36,18 @@ Not Found: /favicon.ico
 
 ![image](https://user-images.githubusercontent.com/33625178/85208401-d07e1900-b34d-11ea-9262-994c5570af92.png)
 
+
+```
+python startapp <app_name>
+```
+
+```
+STATICFILES_URL = [
+    os.path.join(BASE_DIR, 'static')
+]
+STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
+```
+
+```
+python manage.py collectstatic
+```
